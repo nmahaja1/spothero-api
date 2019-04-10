@@ -1,0 +1,8 @@
+CREATE TABLE RATE ( 
+   rate_id INT NOT NULL PRIMARY KEY, 
+   day VARCHAR(50) NOT NULL, 
+   start_time TINYINT NOT NULL, 
+   end_time TINYINT NOT NULL,
+   time_zone VARCHAR(50) NOT NULL,
+   price DECIMAL(10, 2) NOT NULL 
+);
